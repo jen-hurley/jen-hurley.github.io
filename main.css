@@ -12,7 +12,8 @@
     
 
 body {
-  background-image: url("jen-hurley.github.io/images/background-blog.png");
+  background-image: url("background-blog.png");
+  background-color: #F0F4EF;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
