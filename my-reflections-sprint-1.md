@@ -121,32 +121,36 @@ Yes! It click when I understood the purpose of forking as opposed to branching, 
 
 ### Reflect on this activity. When did you feel frustrated?
 
-I felt a little nervous about branching. I wanted to REALLY make sure I didn't override anything on the main. If anything, it felt a bit overhwleming having to do all the 
+I felt a little nervous about branching. I wanted to REALLY make sure I didn't override anything on the main. If anything, it felt a bit overhwleming having to do all the stages of Git, but I understand the necessity of them.
 
 ### If you didn't already know that this is the way websites are made, was it what you pictured? How does the reality of this process differ from your preconceptions?
 
-I assumed there wouldn't be a need for Git, and so coming from a background in administration I imagined that people would just use a Dropbox equivalent for working on projects. I imagined the work all to be done in one place that people could collabrorate one, like GoogleDocs.
+Coming from a background in administration I imagined that people would just use a Dropbox equivalent for working on projects. I imagined the work all to be done in one place that people could collabrorate one, like GoogleDocs.
 
 
 # Thinking like a programmer
 
 ### What is your process so far for solving problems?
-
+Figure out exactly what it is that need to be achieved. 
+Break it down into separate parts or steps.
+Understand each part of the problem and research the problem areas to get a deeper understanding of what's going on. 
+Make a plan on how to work through each part.
+Work on each part until it's resolved.
 
 
 ### Have a look at what the internet says on how to think like a programmer. What patterns do you see? What do you notice?
 
-
+To think like a programmer is to have the ability to effeciently solve problems by breaking them down and looking at them from different perspectives to find solutions. It's about approaching problems in a logical manner. I notice a lot of amphasis on persistence and taking a step back when you get overwhelmed, so that you can come back to the problem from a calmer place. I think having this ability is useful in all areas of life. It's a mindset that's based on growth and persiverance.
 
 ### What does the internet say about flipped learning? What is flipped learning and flipped classroom? How do you think it will relate to your learning journey?
 
-
+Flipped Classroom is when students are provide the course information/materials to be studied outside of the classroom which leaves class time available for applied learning of the course materials and teacher assistance. I think it is going to be particularly helpful for me to be able to go back over information as often as I need in my own time to be able to understand the concept. The flexibility around when and how the course material is learnt is a lot more accessible to me when the basic learning is pre-provided outside of class and then used in a pratical sense during assignments. 
 
 # Introduce yourself
 
 ### What was it like trying to summarise yourself to a group of strangers? 
-
+SCARY! But I'm glad I did it because I want to develop my self confidence, and it's great that I get to practice doing that in an environment where I feel safer and my comfortable than I usually would. 
 
 
 ### Could you feel your ego? Were you self conscious? 
-
+I was very self conscious! I don't like much attention or talking about myself, so it's something I wouldn't really do on my own accord. 
