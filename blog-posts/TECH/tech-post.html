@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"> <!-- character encoding UTF-8 is defaukt but it's good to clarify -->
+    <meta name="viewport" content="width=device-width, initial scale=1"> <!-- tells browser how to render website on mobile devices -->
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="image.css"> -->
+   
+    <title>Tech Post One</title> <!-- part that shows in the tab -->
+ 
+
+  </head>
+  
+  
+    <div>
+
+      <!-- put columns to add one to other side-->
+      <button class="home-button"><a href="index.html"></a>&#10032;</button> 
+      </div>
+
+    <div><img class="main-img" src="images/teeth.JPG"></div>
+    <header>
+
+    
+
+      <div class="header">Welcome to my Website!
+      </div>
+    </header>
+
+
+    
+   <div>
+
+    <!-- maybe add something in nav to highlight what page ur on-->
+
+    <ul class="nav-bar" diplay="inline-grid"> 
+      <li class="nav-link"><a href="/Users/User/dev/blog/about-me/introduction.html">About me</a></li>
+      <li class="nav link"><a href="/Users/User/dev/blog/reflections/reflections-main.html">Reflections</a></li>
+      <li class="nav link"><a href="/Users/User/dev/blog/blog-posts/blog-post.html">Blog</a></li>
+    
+    </ul>
+    </html>
+  </div>
+
+<body>
+
+  <div class="blog-post">
+    <article>
+      <h2> TECH POST 1</h2>
+      <span> What are the best practices associated with using classes vs. ids?</span>
+      <p>
+        Classes and ids are both selectors used for styling elements, so let's start by differentiating between a "class" and and "id"!
+      </p>
+
+      <p>
+        Think of your webpage as a school with a whole bunch of students and teachers, where the students and teachers are the elements on our webpage.
+      </p>
+
+      <p>
+
+        There's no such thing as student individuality at this school, so we're going to make all the students wear a uniform.
+        <br>
+        <br>
+        We can group all the students together and style them in their uniforms with class='student-uniform' and they take on the attritbutes of "student" whilst wearing their uniforms.
+        </p>
+        <p>
+        The teachers are however very unique and special because each of them teach different subjects.
+        <br>
+        <br>
+        We can give each subject teacher their own unique id with id='science.teacher' and id='art.teacher'
+        </p>
+        <p>
+        Now we know exactly who the science teacher is and who the art teacher is becuase of their ids - the science teacher is wearing a labcoat and the art teacher is wearing paint-covered overalls. 
+        </p>
+        <p>
+        Only the science teacher is allowed to wear a labcoat, and only the art teacher can wear paint-covered overalls.
+        <br>
+        <br>
+        However, we can also strip the teachers of some of their indivuality, and apply class styling selectors to the all the teachers along with their specific ids by applying class='moderate-dresscode'. 
+        </p>
+
+       <p>
+
+        So, how to use them?
+        <br>
+        <br>
+        <br>
+        <u>Class</u>: type of element <em>ie. a student or a teacher</em>
+        <br>
+        <br>
+        Should be used when you want to consistantly style elements across a page or site.
+        <br>
+        <br>
+        <em>~You can style multiple elements with class="main-text" in HTML and .main-text in your CSS~ </em>
+        <br>
+        <br>
+        <br>
+        <u>id</u>: unique element <em>ie. science-teacher</em>
+        <br>
+        <br>
+        Should only be used for one instance on a page like the header, the footer, or a navigation bar.
+        <br>
+        <br>
+        <em>~You can style a single element with id="header" in HTML and #header in your CSS~ </em>
+       </p>
+        <p>
+
+        TIP: you can use ids to jump to specific sections on your webpage using an anchor tag! 
+        <br>
+        <br>
+        Like this: < a href="#science-teacher" >< Jump to Science Teacher >
+        </p>
+    </article>
+  </div>
+
+  <div class="blog-post">
+    <article>
+      <h2> TECH POST 2</h2>
+      <span> What does it mean to display inline vs inline blocks? </span>
+      <p>
+        When refering to displaying "inline" or as "inline blocks" we're talking about how we're displaying inline elements. 
+        </p>
+      <p>
+        An inline element is an element that will not break a line of text that it's in. 
+        <br>
+        <br>
+        This is opposed to a block element, which will always start on a new line and take up the full width that's available to it.
+      <p>
+      Some examples of an inline element would be an image, a link, or the span element. 
+      </p>
+        
+      <p>
+      The difference between inline and inline-block display is that we can adjust the width and height values of our inline elements when we display them as "inline-blocks".
+      <br>
+      <br>
+        When we display our inline element with "display: inline" we aren't able to adjust our width and height values of that element.
+        </p>
+        <p>
+        If we use "display: inline" our elements inside the purple container we're not able to adjust width and height values. 
+        <img src="/Users/User/dev/blog/images/display-inline-example.png">
+        <p>
+        BUT, if we use "display: inline-block", we can set the height and width values of each element in the line. 
+        <img src="/Users/User/dev/blog/images/display-inline-block-example.png">
+      </p>
+
+      <p>
+        Below is another example of the effect the display has on the height and width values. 
+        <br>
+        <br>
+        I've set the height and width values of both span elements, but the values are only being applied to the span class with the display of "inline-block".
+        <br>
+        <img src="/Users/User/dev/blog/images/tech-code-example-inline.png">
+        <br>
+        <br>
+        Here's is a paragraph of text with our <span class= inline-span> span elements. </span> <span class= inline-span> Our span elements are inside these borders </span> being displayed as "inline"<span class= inline-span> like this.</span>
+        <br>
+        <br>
+        Here's is a paragraph of text with our Here's is a paragraph of text with our <span class= inline-block-span> span elements. </span> <span class= inline-block-span> Our span elements are </span> now being displayed as "inline-blocks"<span class= inline-block-span> like this.</span>
+        <br>
+        <br> 
+        If you play around with the size of your browser window you can also see the effect it has when the paragraphs wrap as the main body container size changes!
+
+        </p>
+    </article>
+  </div>
+
+</body>
+
+    <footer> 
+      &copy; 2023 Jen Hurley 
+    </footer>
+
+
+</html>
