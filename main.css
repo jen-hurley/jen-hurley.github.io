@@ -12,7 +12,7 @@
     
 
 body {
-  background-image: url('/Users/User/dev/blog/images/background-blog.png');
+  background-image: url('images/background-blog.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
