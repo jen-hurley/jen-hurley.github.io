@@ -241,7 +241,7 @@ li a {
   width: 50%;
   text-align: center;
   white-space: nowrap;
-  text-overflow: nowrap;
+  text-overflow: wrap;
   overflow: hidden;
   padding: 1rem;
   float: center;
