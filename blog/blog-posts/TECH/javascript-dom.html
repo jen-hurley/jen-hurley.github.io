@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial scale=1"> 
+    <link rel="stylesheet" href="../../styles/main.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    
+   
+    <title>Tech Blog</title> 
+
+  </head>
+  
+    <div>
+
+
+<button onclick="window.location.href='../../index.html';" class="home-button">&#10032;</button> 
+</div>
+
+  <div><img class=main.img src="../../../images/teeth.JPG"></div> 
+
+
+    
+<header>
+      <div class="header">
+      <h1> Tech Blog </h1>
+      </div>
+    </header>
+
+
+  
+ 
+    <div>
+
+      <ul class="nav-bar" diplay="inline-grid"> 
+        <li class="nav-link"><a href="https://jen-hurley.github.io/blog/about-me/introduction.html">About me</a></li>
+        <li class="nav link"><a href="https://jen-hurley.github.io/blog/reflections/reflections-main.html">Reflections</a></li>
+        <li class="nav link"><a href="https://jen-hurley.github.io/blog/blog-posts/blog-main.html">Blog</a></li>
+      
+      </ul>
+    </div>
+  
+
+
+
+<body>
+    
+  <div class="blog-post">
+    <article>
+      <h2> TECH POST 3: JS FUNDAMENTALS (explained via Eggs on Toast!)</h2>
+      <span> If a webpage was a dish of Eggs on Toast...</span>
+          <p>
+            <u>HTML</u> would be your ingredients: eggs and bread. 
+        <br>
+        <br>
+            This is the structure of our dish! Without eggs and bread we cannot have eggs on toast. 
+        <br>
+        <br>
+            <u>CSS</u> would be the things you do to those ingredients to get them looking yummy!
+        <br>
+        <br>
+            Presentation, cooked/uncooked, where you want them (on a plate preferably!)
+        <br>
+        <br>
+            <u>JavaScript</u> would be HOW you get the ingredients presented, cooked, and placed, so that it's the most beautiful and delicious plate of Eggs on Toast that you have ever seen.
+        <br>
+        <br>
+            So the toaster, pan, butter, salt and pepper, side of rocket etc. 
+        <br>
+        <br>
+            You could just have your bread and eggs (HTML), which would be very slimy... and you could cook the bread and the eggs, but it wouldn't be as nice.... So we use JavaScript to make it the BEST!
+          </p>
+
+      <span> What's Control Flow? </span>
+          <p>
+        Control Flow is the order in which things are done. 
+        <br>
+        <br>
+        To make Eggs on Toast you need a Control Flow. Without one you could end up with egg in your toaster when you try to cook the bread while the eggs are on top of it.....
+        <br>
+        <br>
+        A Control Flow for our Eggs on Toast would be: 
+        <br>
+        <br>
+        Toast the bread -
+        <ul>
+        <li>Get bread.</li>
+        <li>Slice bread.</li>
+        <li>Put bread slices in toaster. </li>
+        <li>Toast bread slices until lightly browned.</li>
+        <li>Remove bread slices from toaster.</li>
+        <li>Place bread slices on plate. </li>
+          </ul>
+          <br> 
+        Cook the eggs -
+        <ul>
+        <li>Heat pan</li>
+        <li>Get eggs</li>
+        <li>Crack eggs into hot pan</li>
+        <li>Cook eggs until just right</li>
+        <li>Remove eggs from pan</li>
+        <li>Place eggs on top of toasted bread.</li>
+        </ul>
+      </p>
+        <span>Loops</span>
+        <p>
+        Loops are an easy way for us to do something (a function)repeatidly. 
+        <br>
+        <br>
+        An example of a loop with our Eggs on Toast would be "Cook eggs" until "just right" :
+        <br>
+        <br>
+        The loop would be to keep cooking the eggs and stop cooking the eggs when they're "just right".
+        <br>
+        <br>
+        Our function to cook the eggs :
+        <uL>
+        Cook the eggs
+        Check eggs 
+        Eggs = not cooked
+        Keep cooking eggs
+        </uL>
+        <ul>
+        Check eggs
+        Eggs = not cooked
+        Keep cooking eggs
+        </ul>
+        <ul>
+        Check eggs
+        Eggs = "just right"
+        Remove eggs from pan (stop cooking the eggs)
+        </ul>
+        if, else, and else if - conditionals in loops:
+        <br>
+        <br> 
+        We can use the statements "if" "else" and "else if" as conditionals inside our loops, so we can excute our function differently depending on different conditions. Basically, the loop will go through the function until it comes across a condition that is true, and then it will action that thing.
+        <br>
+        <br>
+        Here's another function for cooking eggs, but in this function we're taking into consideration how we want to cook the eggs:
+        <br>
+        <br>
+        if, wants sunny-side-up
+         -- cook 2 eggs sunny-side-up
+         <br>
+        else if, wants poached eggs
+         -- poach 2 eggs
+         <br>
+        else, wants boiled eggs 
+         -- boil 2 eggs
+         <br>
+         <br>
+        We could also add a default to this function in the case that none of the above conditions are true.
+        <br>
+        <br>
+         default: scrabble 2 eggs
+       
+      </p>
+
+      
+        <span> THE DOM (Document Object Model)</span>
+        The DOM is a logical structure created by the browser when it reads the code for our webpage. It represents all the pieces of our webpage like a tree graph would, and is what allows us to access and manipulate each piece.  
+        <br>
+        <br>
+        Let's use a DOM for our kitchen! 
+        <br>
+        <br>
+        <a href="../../../images/DOM-kitchen.jpg">The entire tree graph is our DOM!</a>
+
+        
+
+        <span> Interacting with the DOM </span>
+        A couple of methods for interacting with parts of the DOM are: 
+        <br>
+        <br>
+        <u>getElementById() </u>
+        <br>
+        Using this method you can access and manipulate one specific element via it's ID. 
+        <br>
+        <br>
+        If I say, getElementById(eggs), JavaScript will know what I'm referring to because I've labelled it by it's ID in the pantry. 
+        <br>
+        <br>
+        <br>
+        <br>
+        <u>getElementByClassName() </u>
+        <br>
+        Using this method, you can access and manipulate all the elements that are in that class.
+        <br>
+        <br>
+        If we use "Ingedients" as a class, I can say getElementByClassName(ingredients), and Javascript will see I'm referring to all the things in the pantry that I've labelled as "ingredients". 
+        <br>
+        <br>
+        Getting an element by class name like this doesn't specifiy a particular ingredient, but rather refers to all of them as a group.  
+        <br>
+        <br>
+        If you DID want to access a specific ingredient in the ingredients class, you can use an assigned number that corolates to that specific ingredient - this is known as using an array. 
+
+        </p>
+
+        <span> Objects and Arrays </span>
+
+        <p>
+
+        Because JavaScript doesn't support functions that return multiple values, we need to put our variables into Objects or Arrays.
+        <br>
+        <br>
+        Both Objects and Arrays are like drawers that you put things in. One is used for storing those things in numerical order (an Array), and the other is used for storing the things along with the properties about those things (an Object).
+        <br>
+        <br>
+        The Array drawer lets us store multiple things (data) of the same type together, and uses a numeric index (that starts at 0) asigned to each piece of data. We use the numeric index to access specific data in the Array. 
+        <br>
+        <br>
+        Say I use an Array to store my ingredients - in my ingredients array I have: eggs, bread. 
+        <br>
+        <br>
+        If I want to refer to a specific thing in this array I can use the numerical index assigned to it. So, if I want to refer to the eggs that would be [0], and for the bread it would be [1]. Using an Array is good for if you want to sort your data in a numerical order. 
+        <br>
+        <br>
+        If I wanted to find out how many things I have in my ingredients array, I would use "array.length" which would give "2", as there are two things. 
+        <br>
+        <br>
+        <br>
+        <br>
+
+        The Object drawer lets us store our things (pieces of data)along with propertiies and types (like labels that discribe somethings value - e.g. it's size/shape)
+        <br>
+        <br>
+        With our things in our Object drawer we have keys and values assigned to those things. 
+        <br>
+        <br>
+        If we want to make an Object to store our Dishes. Our keys would be "the type of dish" and "size of the dish", and their values would be what type and what size they are:
+        <br>
+        <br>
+        dishes {
+          type: plate
+          size: small
+        }
+        <br>
+        <br>
+        If you wanted to get specific data about what you have in your Object drawer, you can use dot notation. Like this: 
+        <br>
+        <br>
+        "dishes.type" which would give the type of dish, "plate".
+        <br>
+        <br>
+        And, you can do the same to find their size:
+        <br>
+        <br>
+        dishes.size gives "small".
+
+
+      <p>
+
+        </p>
+
+        <span> A Function and why the Func they're useful</span>
+      <p>
+        A function is like a recipe for a meal (eggs on toast)! A function takes an input, does stuff with it, and a then gives an output. 
+        <br>
+        <br>
+        You have you your input (ingredients: bread, eggs),
+        Then you do specific things with those ingredients,
+        And you get your output (your delicious meal: eggs on toast)!
+    
+        </p>
+
+        <a href="../../../images/eggs-on-toast.jpg"></a>
+
+    </article>
+  </div>
+    </body>
+
+    <footer> 
+      &copy; 2023 Jen Hurley Blog for Dev Academy
+    </footer>
+
+  
+</html>
