@@ -30,7 +30,22 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
+!--> table css  not commited yet
 
+table { 
+  width: 100%;
+  border: solid #0D1821 1px;
+}
+
+td, th {
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: #0D1821;
+}
+
+th {
+  background-color: #BFCC94;
+}
 
 .header {
 display: block;
